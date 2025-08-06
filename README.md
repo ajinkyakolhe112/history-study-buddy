@@ -1,75 +1,104 @@
-# History Roleplay Chatbot
+# 🏛️ History Adventure Master
 
-An interactive educational chatbot that transforms any historical topic into an immersive roleplaying experience. Built with Next.js and powered by Gemma 3n running locally via Ollama.
+Transform NCERT history into exciting roleplaying experiences! This interactive chatbot creates immersive historical scenarios that make learning engaging and memorable.
 
-## Features
+## 🎯 Project Overview
 
-- **Offline-First**: Runs entirely on your local machine using Ollama
-- **Interactive Roleplay**: Transforms historical topics into first-person adventures
-- **Educational**: Seamlessly weaves historical facts into engaging narratives
-- **Responsive Design**: Clean, modern UI that works on all devices
+**History Adventure Master** is an AI-powered educational tool that converts NCERT history chapters into interactive roleplaying adventures. Students can experience historical periods firsthand through engaging narratives, character interactions, and decision-making scenarios.
 
-## Prerequisites
+### Key Features
 
-Before running this application, you need to:
+- **Immersive Storytelling**: Experience history through first-person narratives
+- **Interactive Scenarios**: Make decisions that shape historical outcomes
+- **Multi-Character Adventures**: Interact with diverse historical figures
+- **Educational Integration**: Seamlessly incorporates NCERT curriculum content
+- **Global Context**: Connects Indian history with world events
+- **Media Recommendations**: Suggests relevant films, games, and books
 
-1. **Install Ollama**: Download and install from [ollama.ai](https://ollama.ai)
-2. **Pull Gemma 3n Model**: Run the following command:
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+- Ollama (for local AI model)
+
+### Installation
+
+1. **Clone the repository**
    ```bash
-   ollama pull gemma3n:e2b
+   git clone <repository-url>
+   cd history-study-buddy
    ```
 
-## Getting Started
-
-1. **Install Dependencies**:
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. **Start the Development Server**:
+3. **Set up Ollama (for local AI)**
+   ```bash
+   # Install Ollama from https://ollama.ai
+   ollama pull gemma3n:e2b
+   ```
+
+4. **Start the development server**
    ```bash
    npm run dev
    ```
 
-3. **Open Your Browser**: Navigate to [http://localhost:3000](http://localhost:3000)
+5. **Open your browser**
+   Navigate to [http://localhost:3001](http://localhost:3001)
 
-## How It Works
+## 🎮 How to Use
 
-1. **Enter a Topic**: Type any historical topic (e.g., "The Indus Valley Civilization", "The Mughal Empire")
-2. **Get Immersed**: The AI creates a first-person scenario where you become a character in that historical period
-3. **Make Choices**: Respond to the scenario and continue the interactive story
-4. **Learn History**: Historical facts and details are seamlessly woven into the narrative
+1. **Choose a Historical Topic**: Enter any NCERT history topic (e.g., "Mauryan Empire", "Mughal Court", "Freedom Struggle")
 
-## Technology Stack
+2. **Experience the Adventure**: The AI creates an immersive scenario where you become a character from that time period
 
-- **Frontend**: Next.js 15 with React 19
-- **Styling**: Tailwind CSS
-- **AI Model**: Gemma 3n (e2b variant) via Ollama
-- **API**: Next.js API Routes
+3. **Make Decisions**: Face historical dilemmas and make choices that affect the story
 
-## Project Structure
+4. **Learn Through Play**: Absorb historical facts, concepts, and cultural context through engaging narratives
 
-```
-src/
-├── app/
-│   ├── api/chat/route.ts    # API endpoint for chat
-│   ├── page.tsx             # Main chat interface
-│   ├── prompt.ts            # System prompt for roleplay
-│   └── layout.tsx           # App layout
-```
+## 🏆 Kaggle Competition Entry
 
-## Development
+This project is designed for the **Google - The Gemma 3n Impact Challenge**, focusing on:
 
-- **Lint**: `npm run lint`
-- **Build**: `npm run build`
-- **Start Production**: `npm start`
+- **Educational Impact**: Revolutionizing how students learn history
+- **Technical Innovation**: Using Gemma 3n for on-device AI processing
+- **Accessibility**: Making quality education available offline
+- **Engagement**: Transforming passive learning into active participation
 
-## Troubleshooting
+## 🛠️ Technical Stack
 
-1. **Ollama Not Running**: Make sure Ollama is running with `ollama serve`
-2. **Model Not Found**: Ensure you've pulled the model with `ollama pull gemma3n:e2b`
-3. **API Errors**: Check that the Ollama API is accessible at `http://localhost:11434`
+- **Frontend**: Next.js 15, React 19, TypeScript
+- **Styling**: Tailwind CSS 3
+- **AI Model**: Gemma 3n (via Ollama)
+- **Deployment**: Vercel-ready
 
-## Competition Context
+## 📚 Supported Topics
 
-This project is designed for the **Google Gemma 3n Impact Challenge** and targets **The Ollama Prize** for the best project running Gemma 3n locally using Ollama.
+- **Ancient India**: Indus Valley, Mauryan Empire, Gupta Dynasty
+- **Medieval India**: Delhi Sultanate, Mughal Empire, Marathas
+- **Modern India**: British Rule, Freedom Struggle, Independence
+- **Cultural Heritage**: Art, Architecture, Literature, Science
+
+## 🎯 Educational Goals
+
+- **Engagement**: Make history exciting and memorable
+- **Comprehension**: Deepen understanding through experiential learning
+- **Retention**: Improve knowledge retention through storytelling
+- **Critical Thinking**: Develop decision-making skills through historical scenarios
+- **Global Perspective**: Connect Indian history with world events
+
+## 🤝 Contributing
+
+This project is part of the Kaggle competition. For questions or collaboration, please refer to the competition guidelines.
+
+## 📄 License
+
+This project is created for educational purposes and the Kaggle competition.
+
+---
+
+**Built with ❤️ for the Google Gemma 3n Impact Challenge**

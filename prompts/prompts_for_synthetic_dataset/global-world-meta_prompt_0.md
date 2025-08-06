@@ -1,0 +1,2 @@
+How should I prompt an LLM to get the best answer to this question
+From grade 6 to grade 12 NCERT syllabus, what was happening parallely in the world? Build a section for each chapter for each standard. Cover the important things happening at that time parallely, talk about the most dominent culture and most relavent to india then or india now or anything else which could be important.

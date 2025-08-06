@@ -1,10 +1,10 @@
-# 🏛️ History Adventure Master
+# 📚 History Study Buddy
 
 Transform NCERT history into exciting roleplaying experiences! This interactive chatbot creates immersive historical scenarios that make learning engaging and memorable.
 
 ## 🎯 Project Overview
 
-**History Adventure Master** is an AI-powered educational tool that converts NCERT history chapters into interactive roleplaying adventures. Students can experience historical periods firsthand through engaging narratives, character interactions, and decision-making scenarios.
+**History Study Buddy** is an AI-powered educational tool that converts NCERT history chapters into interactive roleplaying adventures. Students can experience historical periods firsthand through engaging narratives, character interactions, and decision-making scenarios.
 
 ### Key Features
 

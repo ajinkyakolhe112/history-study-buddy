@@ -1,12 +1,12 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 // Define the structure of a message
 interface Message {
   text: string;
   isUser: boolean;
-  timestamp: Date;
+  timestamp: string;
 }
 
 // Simple markdown renderer function
@@ -45,12 +45,22 @@ export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  // Ensure component is mounted before rendering
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const handleSendMessage = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!input.trim()) return;
 
-    const userMessage: Message = { text: input, isUser: true, timestamp: new Date() };
+    const userMessage: Message = { 
+      text: input, 
+      isUser: true, 
+      timestamp: new Date().toISOString() 
+    };
     setMessages((prev) => [...prev, userMessage]);
     setInput('');
     setIsLoading(true);
@@ -69,23 +79,48 @@ export default function Home() {
       }
 
       const data = await response.json();
-      const botMessage: Message = { text: data.message, isUser: false, timestamp: new Date() };
+      const botMessage: Message = { 
+        text: data.message, 
+        isUser: false, 
+        timestamp: new Date().toISOString() 
+      };
       setMessages((prev) => [...prev, botMessage]);
     } catch (error) {
       console.error('Error sending message:', error);
-      const errorMessage: Message = { text: 'Oops! Something went wrong. Please try again.', isUser: false, timestamp: new Date() };
+      const errorMessage: Message = { 
+        text: 'Oops! Something went wrong. Please try again.', 
+        isUser: false, 
+        timestamp: new Date().toISOString() 
+      };
       setMessages((prev) => [...prev, errorMessage]);
     } finally {
       setIsLoading(false);
     }
   };
 
+  // Don't render until mounted to prevent hydration mismatch
+  if (!mounted) {
+    return (
+      <div className="flex h-screen flex-col bg-gray-50">
+        <header className="p-6 border-b border-gray-200 w-full bg-gradient-to-r from-blue-600 to-indigo-600 shadow-lg">
+          <div className="max-w-4xl mx-auto">
+            <h1 className="text-2xl font-bold text-white mb-1">📚 History Study Buddy</h1>
+            <p className="text-blue-100 text-sm">Transform NCERT history into exciting roleplaying experiences</p>
+          </div>
+        </header>
+        <main className="flex-1 flex items-center justify-center">
+          <div className="text-gray-500">Loading...</div>
+        </main>
+      </div>
+    );
+  }
+
   return (
     <div className="flex h-screen flex-col bg-gray-50">
       {/* Header */}
       <header className="p-6 border-b border-gray-200 w-full bg-gradient-to-r from-blue-600 to-indigo-600 shadow-lg">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-2xl font-bold text-white mb-1">🏛️ History Adventure Master</h1>
+          <h1 className="text-2xl font-bold text-white mb-1">📚 History Study Buddy</h1>
           <p className="text-blue-100 text-sm">Transform NCERT history into exciting roleplaying experiences</p>
         </div>
       </header>
@@ -94,7 +129,7 @@ export default function Home() {
       <main className="flex-1 overflow-y-auto p-6 space-y-4">
         {messages.length === 0 ? (
           <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 text-blue-800 p-6 rounded-xl shadow-lg max-w-2xl">
-            <h2 className="font-bold text-xl mb-3">🏛️ Welcome to History Adventure!</h2>
+            <h2 className="font-bold text-xl mb-3">📚 Welcome to History Study Buddy!</h2>
             <p className="mb-4">What period of history are you studying today? Tell me a topic, and I will create an exciting roleplaying scenario for you.</p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
@@ -120,7 +155,7 @@ export default function Home() {
           </div>
         ) : (
           messages.map((msg, index) => (
-            <div key={index} className={`flex ${msg.isUser ? 'justify-end' : 'justify-start'}`}>
+            <div key={`${msg.timestamp}-${index}`} className={`flex ${msg.isUser ? 'justify-end' : 'justify-start'}`}>
               <div className={`p-4 rounded-xl shadow-md max-w-2xl ${
                 msg.isUser 
                   ? 'bg-blue-500 text-white' 

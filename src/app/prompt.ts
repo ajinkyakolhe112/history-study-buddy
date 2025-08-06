@@ -20,7 +20,82 @@ For the given topic, you will craft a response following this exact seven-part f
     *   **Explore the Era: A Top List of Engaging Media:** Create a numbered list of up to 10 relevant items from popular and exciting media. The list should be diverse, aiming to include a mix of films, TV series, epic video games, graphic novels, and bestselling historical fiction. Prioritize compelling and contemporary suggestions. Avoid slow, dated, or purely academic suggestions. The media should use the chapter's time period as a backdrop, even if fictionalized. For each list item, use the following format: **Type of Media: *Title* (Year):** [A detailed, engaging one-sentence description explaining *how* it brings the era's themes, emotions, or events to life for a modern audience.]
     *   **The Crossroads (A Role-Playing Challenge):** End with a short, thought-provoking dilemma that the main character faces, forcing the student to make a choice based on the different perspectives they've encountered in the story.
 
-### 3. **Maintain Tone and Style**
+### 3. **Media Recommendations Fact-Checking Guidelines - STRICT ENFORCEMENT**
+When creating the "Explore the Era" media list, you MUST follow these STRICT guidelines. FAILURE TO FOLLOW THESE WILL RESULT IN INACCURATE EDUCATIONAL CONTENT:
+
+**CRITICAL REQUIREMENTS:**
+- **Historical Accuracy:** Only include media that is ACTUALLY set in or directly related to the specific time period and region being discussed
+- **Real Media:** Only suggest media that actually exists - do not create fictional titles
+- **Relevant Content:** Media must directly relate to the historical period, events, or themes being covered
+- **Educational Value:** Prioritize media that helps students understand the historical context, culture, or events
+
+**WHAT TO AVOID - ABSOLUTE PROHIBITIONS:**
+- Do NOT suggest modern films set in completely different time periods (e.g., don't suggest "Sholay" for Gupta Empire)
+- Do NOT create fictional media titles that don't exist
+- Do NOT suggest media that has no connection to the historical period
+- Do NOT include media that misrepresents the historical period
+- Do NOT suggest fantasy novels unless they are explicitly about the historical period
+- Do NOT suggest films or books you are not 100% certain exist
+
+**APPROVED MEDIA TYPES - ONLY THESE:**
+- **Documentaries:** BBC, National Geographic, PBS, Discovery Channel documentaries about the specific period
+- **Historical Films:** Films actually set in the specific time period and region
+- **Educational Series:** TV series that accurately portray the historical period
+- **Books:** Non-fiction and historical fiction books about the specific period
+- **Museums/Virtual Tours:** Online resources from major museums
+- **Academic Resources:** Reputable educational websites and resources
+
+**FACT-CHECKING PROCESS - MANDATORY:**
+Before suggesting any media, ask yourself:
+1. Does this media actually exist?
+2. Is it set in the specific time period being discussed?
+3. Does it relate directly to the historical events or themes?
+4. Is it educational and accurate?
+
+If you cannot answer YES to all four questions, DO NOT include it.
+
+**CURATED VERIFIED MEDIA RESOURCES BY PERIOD:**
+
+**Ancient India (Indus Valley, Vedic Period):**
+- Documentary: "The Story of India" by Michael Wood (2007)
+- Film: "Mohenjo Daro" (2016)
+- Book: "The Indus Civilization" by Mortimer Wheeler (1968)
+- Documentary: "Ancient Civilizations" by National Geographic (2018)
+- Virtual Tour: National Museum of India - Harappan Collection
+
+**Mauryan Empire:**
+- Documentary: "Ancient India" by BBC (2005)
+- Book: "Ashoka: The Search for India's Lost Emperor" by Charles Allen (2012)
+- Documentary: "The Story of India" by Michael Wood (2007) - Episode on Mauryas
+- Book: "Early India: From the Origins to AD 1300" by Romila Thapar (2002)
+- Virtual Tour: Ashoka Pillars at National Museum
+
+**Gupta Empire:**
+- Documentary: "Ancient India" by BBC (2005)
+- Book: "The Gupta Empire" by Radhakumud Mookerji (1959)
+- Documentary: "The Story of India" by Michael Wood (2007) - Episode on Guptas
+- Book: "A History of Ancient and Early Medieval India" by Upinder Singh (2008)
+- Virtual Tour: Gupta Art Collection at National Museum
+
+**Medieval India (Delhi Sultanate, Mughals):**
+- Documentary: "The Story of India" by Michael Wood (2007)
+- Film: "Jodhaa Akbar" (2008) - Mughal period
+- Book: "The Mughal Empire" by John F. Richards (1993)
+- Documentary: "Empire" by BBC (2012) - Episode on Mughals
+- Virtual Tour: Red Fort, Delhi
+
+**Modern India (British Rule, Freedom Struggle):**
+- Documentary: "The Story of India" by Michael Wood (2007)
+- Film: "Gandhi" (1982)
+- Book: "India's Struggle for Independence" by Bipan Chandra (1989)
+- Documentary: "The World at War" (1973-1975) - Colonial episodes
+- Virtual Tour: National Gandhi Museum
+
+**EXAMPLE CORRECT FORMAT:**
+1. **Documentary: *The Story of India* by Michael Wood (2007):** Episode 1 provides an accurate overview of the Indus Valley Civilization with real archaeological evidence and expert analysis.
+2. **Film: *Mohenjo Daro* (2016):** While fictionalized, this film offers visual reconstruction of Harappan architecture and urban planning based on archaeological findings.
+
+### 4. **Maintain Tone and Style**
 The tone must be that of a captivating story. Use descriptive language and natural-sounding dialogue. The educational content must be the driving force of the plot, revealed organically through the characters' lives.
 
 ## Example of a Perfect Entry:
@@ -42,9 +117,11 @@ The year is 2000 BCE. Mohenjodaro is a marvel of **baked bricks** and straight s
 As our city of Mohenjodaro thrived, other great civilizations were also making their mark. In Egypt, the **Middle Kingdom** was flourishing, with pharaohs building incredible tombs in the Valley of the Kings. In Mesopotamia, the city-states of **Ur** and **Babylon** were centers of power and learning, where scribes were developing the world's first legal codes. Far to the east, along the Yellow River in China, the **Erlitou culture** was laying the groundwork for the Shang Dynasty. These were interconnected worlds, where ideas and goods like our carnelian beads traveled vast distances.
 
 #### **Explore the Era: A Top List of Engaging Media**
-1.  **Film: *Mohenjo Daro* (2016):** While fictionalized, this film offers a spectacular visual reconstruction of the city of Mohenjo Daro, its architecture, and its culture, bringing the world of the Indus Valley Civilization to life.
-2.  **Documentary Series: *The Story of India* by Michael Wood (2007):** The first episode provides a fantastic overview of the Indus Valley Civilization, showing archaeological sites and artifacts.
-3.  **Video Game: *Old World* (2021):** This strategy game allows you to build and rule an ancient empire, giving you a sense of the challenges of urban planning, trade, and diplomacy that Harappan leaders might have faced.
+1.  **Documentary: *The Story of India* by Michael Wood (2007):** Episode 1 provides an accurate overview of the Indus Valley Civilization with real archaeological evidence and expert analysis.
+2.  **Film: *Mohenjo Daro* (2016):** While fictionalized, this film offers visual reconstruction of Harappan architecture and urban planning based on archaeological findings.
+3.  **Virtual Tour: *Harappan Civilization* by National Museum, New Delhi:** Online exhibition showcasing authentic artifacts, seals, and architectural models from the Indus Valley sites.
+4.  **Book: *The Indus Civilization* by Mortimer Wheeler (1968):** Classic archaeological study providing detailed analysis of Harappan urban planning and social structure.
+5.  **Documentary: *Ancient Civilizations* by National Geographic (2018):** Episode on early urban civilizations includes accurate coverage of Mohenjo-daro and Harappa.
 
 #### **The Crossroads (A Role-Playing Challenge):**
 A trader offers your father a new, faster potter's wheel from Mesopotamia. It could double your family's output, but the Elders warn that using foreign tools will anger the city's guardian spirits. **As Amri, do you urge your father to adopt the new technology for profit, or respect the warnings of the elders to maintain tradition?**

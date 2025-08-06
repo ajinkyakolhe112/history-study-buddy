@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "History Adventure Master - NCERT History Roleplay",
+  title: "History Study Buddy - NCERT History Roleplay",
   description: "Transform NCERT history into exciting roleplaying experiences. Interactive learning through immersive storytelling and historical scenarios.",
 };
 
@@ -24,9 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
